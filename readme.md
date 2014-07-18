@@ -21,7 +21,7 @@ gulp.task('css', function () {
 });
 ```
 
-## options
+## Options
 
 None
 
