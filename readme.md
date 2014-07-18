@@ -1,6 +1,6 @@
 # [gulp](http://gulpjs.com)-remove-files [![Build Status](https://secure.travis-ci.org/danielhusar/gulp-remove-files.svg?branch=master)](http://travis-ci.org/danielhusar/remove-files)
 
-Remove all files from stream.
+###Remove all files from stream.
 (this is removing files from stream and disk so it might not go very well with gulp plugin requirements, so it might get banned :) but I needed this functionality on one of the projects)
 
 ## Install
@@ -19,7 +19,6 @@ gulp.task('css', function () {
   gulp.src('./public/*.html')
     .pipe(removeFiles());
 });
-
 ```
 
 ## options
