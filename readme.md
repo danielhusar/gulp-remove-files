@@ -15,7 +15,7 @@ npm install --save-dev gulp-remove-files
 var gulp = require('gulp');
 var removeFiles = require('gulp-remove-files');
 
-gulp.task('css', function () {
+gulp.task('clearHtml', function () {
   gulp.src('./public/*.html')
     .pipe(removeFiles());
 });
