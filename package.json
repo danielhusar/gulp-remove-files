@@ -1,7 +1,7 @@
 {
   "name": "gulp-remove-files",
   "version": "0.0.1",
-  "description": "Remove files fmor stream.",
+  "description": "Remove files from stream.",
   "license": "MIT",
   "repository": "danielhusar/gulp-remove-files",
   "author": {
