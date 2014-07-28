@@ -1,6 +1,6 @@
 {
   "name": "gulp-remove-files",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Remove files from stream.",
   "license": "MIT",
   "repository": "danielhusar/gulp-remove-files",
