@@ -17,9 +17,7 @@ module.exports = function () {
     }
 
     fs.remove(file.path)
-      .then(function () {
-        cb();
-      }.bind(this), function(err) {
+      .then(cb, function(err) {
         this.emit('error', new gutil.PluginError('gulp-files-remove', err));
         cb();
       }.bind(this));
